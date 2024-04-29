@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SignIn & SignUp </title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="signin-signup">
+				<form action="" method="get" accept-charset="utf-8" class="sign-in-form">
+					<h2 class="title">Sign in</h2>
+					<div class="input-field">
+						<i class="fas fa-user"></i>
+						<input type="text" placeholder="Username" name="username">
+					</div>
+					<div class="input-field">
+						<i class="fas fa-lock"></i>
+						<input type="password" placeholder="Password" name="password">
+					</div>
+					<input type="submit" name="submit" value="login" class="btn">
+					<p class="social-text">Or Sign in with social platform</p>
+					<div class="social-media">
+						<a href="" class="socila-icon">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="" class="socila-icon">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="" class="socila-icon">
+							<i class="fab fa-google"></i>
+						</a>
+						<a href="" class="socila-icon">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</a>
+					</div>	
+					<p class="account-text">Don't have an account? <a href="#" id="signup-btn1">Sign Up</a> </p>				
+				</form>
+				<form action="" method="get" accept-charset="utf-8" class="sign-up-form">
+					
+					<h2 class="title">Sign up</h2>
+					<div class="input-field">
+						<i class="fas fa-user"></i>
+						<input type="text" placeholder="User Name" name="username">
+					</div>
+					<div class="input-field">
+						<i class="fa-solid fa-envelope"></i>
+						<input type="mail" placeholder="Email" name="email">
+					</div>
+					<div class="input-field">
+						<i class="fas fa-lock"></i>
+						<input type="password" placeholder="Password" name="password">
+					</div>
+					<input type="submit" name="submit" value="signup" class="btn">
+					<p class="social-text">Or Sign in with social platform</p>
+					<div class="social-media">
+						<a href="" class="socila-icon">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="" class="socila-icon">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="" class="socila-icon">
+							<i class="fab fa-google"></i>
+						</a>
+						<a href="" class="socila-icon">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</a>
+					</div>
+					<p class="account-text">Already an account <a href="#" id="signin-btn2">Sign In</a> </p>
+				</form>
+				
+			</div>
+			<div class="panels-container">
+				<div class="panel left-panel">
+					<div class="content">
+						<h3>Member of Blog? </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							</p>
+						<button class="btn" id="signin-btn">Sign In</button>
+					</div>
+					<img src="signin.svg" alt="" class="image">
+				</div>
+				<div class="panel right-panel">
+					<div class="content">
+						<h3>New to Blog? </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							.</p>
+						<button class="btn" id="signup-btn">Sign up</button>
+					</div>
+					<img src="signin.svg" alt="" class="image">
+				</div>
+			</div>
+		</div>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script> -->
+		<script src="app.js"></script>
+	</body>
+</html>
