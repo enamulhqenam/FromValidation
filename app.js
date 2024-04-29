@@ -14,9 +14,10 @@ signinBtn.addEventListener("click",() =>{
 	container.classList.remove("signUp-mode")
 });
 
-// signUpBtn2.addEventListener("click",()=>{
-// 	container.classList.add("SignUp-mode")
-// });
-signinBtn2.addEventListener("click",() =>{
-	container.classList.remove("signUp-mode2")
+signUpBtn2.addEventListener("click",()=>{
+	container.classList.add("signUp-mode2")
 });
+
+signinBtn2.addEventListener("click",()=>{
+	container.classList.remove("signUp-mode2")
+})
